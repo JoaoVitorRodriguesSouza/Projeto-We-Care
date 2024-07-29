@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    text-transform: uppercase;
+    color:  rgba(152, 157, 156, 1);
+    cursor: pointer;
+    margin-right: 30px;
+}
+header button {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px; 
+    background: rgb(94, 101, 196);
+    color: white;
+    border-radius: 21px;
+    border: none;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    margin-left: 140px;
+}
+img {
+    margin-right: 140px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    text-transform: uppercase;
+    color:  rgba(81, 81, 81, 1);
+    
+}
+h3 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: rgba(81, 81, 81, 1);
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    width: 60%;
+    color: rgba(132, 132, 132, 1);
+    margin-bottom: 50px;
+}
+button {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    background-color: chartreuse;
+    border-radius: 21px;
+    border: none;
+    height: 55px;
+    width: 230px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    a {
+        font-size: 0px;
+    }
+    header button {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    main {
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+        height: 100vh;
+    }
+    img {
+        height: 350px;
+        margin-top: 170px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    h1 {
+        font-size: 65px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    h3 {
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-left: 39px;
+    }
+    p {
+        display: none;
+        margin-bottom: 1px;
+    }
+    button {
+        margin-left: 48px;
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+    }
+}
